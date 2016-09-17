@@ -1,0 +1,69 @@
+Client URL
+http://local.xstoreit.com:8989/xstore/clients (Later)
+http://local.xstoreit.com:8989/xstore/client/{id}
+http://local.xstoreit.com:8989/xstore/client/register
+http://local.xstoreit.com:8989/xstore/client/update
+http://local.xstoreit.com:8989/xstore/client/login
+http://local.xstoreit.com:8989/xstore/client/activateordeactivate
+http://local.xstoreit.com:8989/xstore/client/{id}/groups
+http://local.xstoreit.com:8989/xstore/client/{id}/groups/add
+http://local.xstoreit.com:8989/xstore/client/{id}/groups/activated
+http://local.xstoreit.com:8989/xstore/client/{id}/groups/deactivated
+
+Group URL
+http://local.xstoreit.com:8989/xstore/groups (Later)
+http://local.xstoreit.com:8989/xstore/group/{id}
+http://local.xstoreit.com:8989/xstore/group/update
+http://local.xstoreit.com:8989/xstore/group/activateordeactivate
+http://local.xstoreit.com:8989/xstore/group/{id}/stores
+http://local.xstoreit.com:8989/xstore/group/{id}/stores/add
+http://local.xstoreit.com:8989/xstore/group/{id}/stores/activated
+http://local.xstoreit.com:8989/xstore/group/{id}/stores/deactivated
+http://local.xstoreit.com:8989/xstore/group/{id}/customers
+http://local.xstoreit.com:8989/xstore/group/{id}/customers/register
+http://local.xstoreit.com:8989/xstore/group/{id}/customers/activated
+http://local.xstoreit.com:8989/xstore/group/{id}/customers/deactivated
+
+Store URL
+http://local.xstoreit.com:8989/xstore/stores (Later)
+http://local.xstoreit.com:8989/xstore/store/{id}
+http://local.xstoreit.com:8989/xstore/store/update
+http://local.xstoreit.com:8989/xstore/store/activateordeactivate
+http://local.xstoreit.com:8989/xstore/store/{id}/categories
+http://local.xstoreit.com:8989/xstore/store/{id}/category/add
+http://local.xstoreit.com:8989/xstore/store/{id}/categories/activated
+http://local.xstoreit.com:8989/xstore/store/{id}/categories/deactivated
+http://local.xstoreit.com:8989/xstore/store/{id}/products/add
+http://local.xstoreit.com:8989/xstore/store/{id}/products
+http://local.xstoreit.com:8989/xstore/store/{id}/products/activated
+http://local.xstoreit.com:8989/xstore/store/{id}/products/deactivated
+http://local.xstoreit.com:8989/xstore/store/{id}/category/{id}/products/add
+http://local.xstoreit.com:8989/xstore/store/{id}/category/{id}/products
+http://local.xstoreit.com:8989/xstore/store/{id}/category/{id}/products/activated
+http://local.xstoreit.com:8989/xstore/store/{id}/category/{id}/products/deactivated
+
+Customer URL
+http://local.xstoreit.com:8989/xstore/customers (Later)
+http://local.xstoreit.com:8989/xstore/customer/{id}
+http://local.xstoreit.com:8989/xstore/customer/update
+http://local.xstoreit.com:8989/xstore/customer/login
+http://local.xstoreit.com:8989/xstore/customer/activateordeactivate
+
+Category Url
+http://local.xstoreit.com:8989/xstore/category (Later)
+http://local.xstoreit.com:8989/xstore/category/{id}
+http://local.xstoreit.com:8989/xstore/category/{id}/add (Later)
+http://local.xstoreit.com:8989/xstore/category/{id}/activated
+http://local.xstoreit.com:8989/xstore/category/{id}/deactivated
+http://local.xstoreit.com:8989/xstore/category/{id}/products(later)
+http://local.xstoreit.com:8989/xstore/category/{id}/products/activated(later)
+http://local.xstoreit.com:8989/xstore/category/{id}/products/deactivated(later)
+http://local.xstoreit.com:8989/xstore/category/update
+http://local.xstoreit.com:8989/xstore/category/activateordeactivate
+
+Product URL
+http://local.xstoreit.com:8989/xstore/products(Later)
+http://local.xstoreit.com:8989/xstore/product/{id}
+http://local.xstoreit.com:8989/xstore/product/edit
+http://local.xstoreit.com:8989/xstore/product/activateordeactivate
+http://local.xstoreit.com:8989/xstore/product/link
