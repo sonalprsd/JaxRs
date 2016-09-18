@@ -2,6 +2,7 @@ package com.Jax.messenger;
 
 
 import java.util.HashMap;
+import java.util.List;
 
 import javax.ws.rs.GET;
 import com.Jax.Pojo.*;
@@ -10,23 +11,24 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("allMessages")
+@Path("allProfiles")
 public class MessageResource {
 	
 	  @GET
-	  @Produces(MediaType.TEXT_PLAIN)
-	  public HashMap<Long,ProfilePojo> getIt() {
-		  ProfileWrapper.setHash_profiles();
-       return ProfileWrapper.getHash_profiles();
+	  @Produces(MediaType.APPLICATION_XML)
+	  public  List<ProfilePojo> getIt() {
+		//  ProfileWrapper.setHash_profiles();
+         return  ProfileWrapper.getHash_profiles();
+          
 	    }
 	  
 	  @GET
 	  @Path("/{messageId}")
-	  @Produces(MediaType.TEXT_PLAIN)
-	  public int getId(@PathParam("messageId")int Id)
+	  @Produces(MediaType.APPLICATION_XML)
+	  public ProfilePojo getId(@PathParam("messageId")int Id)
 	  {
 		  
-		return Id;
+		return ProfileWrapper.getProfile(Id-1);
 	  }
 
 	

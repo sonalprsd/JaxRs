@@ -1,9 +1,16 @@
 package com.Jax.Pojo;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class ProfilePojo {
 
 	private int id;
 	private String name;
+public	ProfilePojo()
+	 {
+		 
+	 }
 	
  public	ProfilePojo(int id,String name)
 	{

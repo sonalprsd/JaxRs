@@ -25,8 +25,9 @@ public class MyResource {
      */
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public HashMap<Long,ProfilePojo> getIt() {
-        return ProfileWrapper.getHash_profiles();
+    public String getIt() {
+      //  return ProfileWrapper.getHash_profiles();
+    	return "hello";
  	    }
     
     
